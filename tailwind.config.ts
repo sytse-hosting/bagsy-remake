@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				bagsy: {
+					green: 'hsl(var(--bagsy-green))',
+					'dark-green': 'hsl(var(--bagsy-dark-green))',
+					'bg-dark': 'hsl(var(--bagsy-bg-dark))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +89,21 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'scroll-left': {
+					from: { transform: 'translateX(100%)' },
+					to: { transform: 'translateX(-100%)' }
+				},
+				'glow': {
+					'0%, 100%': { textShadow: '0 0 20px hsl(120 100% 50% / 0.5)' },
+					'50%': { textShadow: '0 0 30px hsl(120 100% 50% / 0.8)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'scroll-left': 'scroll-left 20s linear infinite',
+				'glow': 'glow 2s ease-in-out infinite'
 			}
 		}
 	},
