@@ -9,7 +9,7 @@ const HeroSection = () => {
             Dogsey
           </h1>
           <p className="text-2xl md:text-3xl text-foreground mb-6 font-light">
-            They don't bark. They bag.
+            They don&apos;t bite. They make Bags.
           </p>
           <p className="text-lg text-muted-foreground">
             The first NFT collection created on{" "}
