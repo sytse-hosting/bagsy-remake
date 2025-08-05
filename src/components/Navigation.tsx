@@ -21,9 +21,6 @@ const Navigation = () => {
             Community
           </a>
           <span className="text-foreground">X</span>
-          <a href="#marketplace" className="text-foreground hover:text-bagsy-green transition-colors">
-            Marketplace
-          </a>
           <a href="#dexscreener" className="text-foreground hover:text-bagsy-green transition-colors">
             Dexscreener
           </a>
