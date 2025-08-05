@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="text-left">
           <h1 className="text-8xl md:text-9xl font-black text-bagsy-green animate-glow mb-4">
-            BAGSY
+            Dogsey
           </h1>
           <p className="text-2xl md:text-3xl text-foreground mb-6 font-light">
             They don't bark. They bag.
