@@ -12,7 +12,7 @@ const HeroSection = () => {
             They don&apos;t bite. They make Bags.
           </p>
           <p className="text-lg text-muted-foreground">
-            The first NFT collection created on{" "}
+            The most excided dog on{" "}
             <span className="text-bagsy-green font-semibold">Bags.fm</span>
           </p>
         </div>
