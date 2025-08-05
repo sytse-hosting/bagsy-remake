@@ -18,7 +18,7 @@ const Index = () => {
       
       <AboutSection />
       
-      <ScrollingBanner text="BAGSY COLLECTION" />
+      <ScrollingBanner text="DOGSEY DISPLAY" />
       <ScrollingBanner text="LAUNCHING SOON" className="bg-bagsy-green/10" />
       <ScrollingBanner text="JOIN THE PACK" />
       
