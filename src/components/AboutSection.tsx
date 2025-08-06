@@ -1,10 +1,7 @@
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 bg-secondary/20">
+  return <section id="about" className="py-20 bg-secondary/20">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-bagsy-green mb-8">
-          What are Bagsy?
-        </h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-bagsy-green mb-8">What are Dogsey</h2>
         
         <div className="max-w-4xl mx-auto space-y-6">
           <p className="text-lg text-foreground">
@@ -19,8 +16,6 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
