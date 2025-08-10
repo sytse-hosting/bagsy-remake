@@ -1,4 +1,4 @@
-import bagsyCharacter from "@/assets/bagsy-character.png";
+
 
 const HeroSection = () => {
   return (
@@ -19,8 +19,8 @@ const HeroSection = () => {
         
         <div className="flex justify-center lg:justify-end">
           <img 
-            src={bagsyCharacter} 
-            alt="BAGSY Character" 
+            src="/lovable-uploads/86f5c870-6f30-4d4c-8cd4-cc4803890960.png" 
+            alt="Dogsey mascot character" 
             className="w-80 h-80 object-contain filter drop-shadow-2xl hover:scale-105 transition-transform duration-300"
           />
         </div>
