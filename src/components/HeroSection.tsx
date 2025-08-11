@@ -12,7 +12,7 @@ const HeroSection = () => {
             They don&apos;t bite. They make Bags.
           </p>
           <p className="text-lg text-muted-foreground">
-            The most excided dog on{" "}
+            The most excited dog on{" "}
             <span className="text-bagsy-green font-semibold">Bags.fm</span>
           </p>
         </div>
